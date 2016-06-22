@@ -11,9 +11,9 @@ Package.onUse(function(api) {
   api.versionsFrom('1.0');
 
   api.use([
-    'alanning:roles',
-    'stevezhu:lodash',
-    'hydraorc:translit'
+    'alanning:roles@1.2.15',
+    'stevezhu:lodash@4.13.1',
+    'hydraorc:translit@1.0.7'
   ], 'server');
 
   api.addFiles([
