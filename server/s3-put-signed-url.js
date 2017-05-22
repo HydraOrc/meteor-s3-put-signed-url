@@ -40,8 +40,8 @@ Meteor.methods({
     var fileExt = fileName.split('.').pop();
     fileName = fileName.replace(/\.[^\/.]+$/, '');
     fileName = translit(fileName);
-    fileName = fileName.split('_').slice(0, 5).join('_');
-    fileName = [fileName, Date.now() / 1000 | 0].join('_');
+    fileName = fileName.split('-').slice(0, 5).join('-');
+    fileName = [fileName, Date.now() / 1000 | 0].join('-');
     fileName = [fileName, fileExt].join('.');
 
     var key = [data.folder, '/', fileName].join('');

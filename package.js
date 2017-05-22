@@ -1,7 +1,7 @@
 Package.describe({
   name: 'hydraorc:s3-put-signed-url',
   summary: 'Meteor method that helps you to generate a signed url to PUT a file to amazon aws s3',
-  version: '1.0.3',
+  version: '1.0.4',
   git: 'https://github.com/hydraorc/meteor-s3-put-signed-url.git'
 });
 
